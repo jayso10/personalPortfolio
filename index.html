@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/424fbde03b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <h3 id="jayso"><span id="capitalJay">J</span>ayso</h3>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hey, I'm <span>Justice Sosu</span><br> from The United Kingdom</h1>
+        </div>
+      </div>
+
+    </div>
+
+    <!--About Section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/portimg-3.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Expedita fugit quis repellendus aperiam, minus saepe natus dolores quod reprehenderit 
+                     dicta earum eum quidem obcaecati cumque placeat maxime beatae cum unde?Lorem ipsum dolor sit amet, 
+                     consectetur adipisicing elit. Aut, dolore. Possimus blanditiis voluptatem doloremque 
+                     quia atque incidunt voluptates,modi facilis facere magni magnam explicabo consequuntur aut fugiat quidem 
+                     minus alias!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <p>My Skills been divided into 2 main scetions. My Technical skills and my Professional skills. 
+                            For a more complete deep-dive into my skillset look below</p>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-current</span><br>Designing things</li>
+                            <li><span>2020-2022</span><br>Developing Things</li>
+                            <li><span>2017-2020</span><br>Debugging Things</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-</span><br>IT Career Switch</li>
+                            <li><span>2020-2020</span><br>IT Teens</li>
+                            <li><span>2017-2020</span><br>Mfantsipim School-General Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------SKILLs SECTION---------------------------------------------------------->
+   <section id="kills" class="kills">
+        <div class="main-text">
+            <span>Technical and Professional</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>85%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Javascript</p>
+                        <p>72%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>C++</p>
+                        <p>50%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="cplusplus"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-right">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="85"></div>
+                        <div class="text">
+                            <big>85%</big>
+                            <small>Adaptability</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--------------------------Services----------------------------------------------->
+    <div id="services">
+      <div class="container">
+       <h1 class="sub-title">My Services</h1>
+       <div class="services-list">
+         <div>
+            <i class="fa-solid fa-code fa-beat"></i>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Inventore laborum, officia atque nihil harum enim, necessitatibus rem te</p>
+            <a href="#">Learn More</a>
+         </div>
+         <div>
+            <i class="fa-solid fa-crop fa-fade"></i>
+            <h2>UI Design</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Inventore laborum, officia atque nihil harum enim, necessitatibus rem te</p>
+            <a href="#">Learn More</a>
+         </div>
+         <div>
+            <i class="fa-brands fa-app-store fa-bounce"></i>
+            <h2>App Design</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Inventore laborum, officia atque nihil harum enim, necessitatibus rem te</p>
+            <a href="#">Learn More</a>
+         </div>
+
+       </div>
+      </div>
+    </div>
+   
+<!--Portfolio----------->
+  <div id="portfolio">
+   <div class="container">
+     <h1 class="sub-title">My Work</h1>
+     <div class="work-list">
+        <div class="work">
+          <img src="images/solar3.jpg">
+          <div class="layer">
+            <h3>Mini Solar System</h3>
+            <p>Just a simple website created with just html of an earth, sun and moon in an orbit</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+            <img src="images/camera5.jpg">
+            <div class="layer">
+                <h3>A Camera Website</h3>
+                <p>A responsive website made with simple html and css</p>
+                <a href="https://github.com/jayso10/cameraweb.github.io" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          
+     </div>
+     <a href="#" class="btn">See More</a>
+   </div>
+  </div>
+
+<!--Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>justicesosu10@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+447500284503</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/JusticeSos50629?s=20" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/MYCV.pdf" download class="btn btn2">Download CV</a><!--This Downlaods your CV-->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Justice<i class="fa-solid fa-heart fa-beat"></i></p>
+    </div>
+</div>
+
+
+
+
+<script>
+    let tablinks = document.getElementsByClassName("tab-links");
+    let tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    let sideMenu = document.getElementById('sidemenu');
+    
+    const openmenu = () =>{
+        sideMenu.style.right = '0';
+    }
+    
+    const closemenu = () =>{
+        sideMenu.style.right = '-200px';
+    }
+    /*const opa = () => {
+        document.querySelector('body').style.filter = 'blur(1px)';
+        sideMenu.style.filter = 'blur(-200px)'
+    }*/
+
+</script>
+<!--<form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>-->
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz9s298SAHw8aX2S4FkZLGHmTP8iqZpWdHfGWVzUAPmUFDe4zIYWbWiexypP9YGKA1SNQ/exec'
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById('msg');
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = 'Message sent successfully<i class="fa-sharp fa-solid fa-face-smile-wink fa-bounce" style="color: #2a4304;"></i>'
+            setTimeout(function(){
+                msg.innerHTML='';
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
